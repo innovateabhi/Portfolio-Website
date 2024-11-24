@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.24rem;
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    width: 34px;
+    font-size: 3rem;
+    margin: 30px 0;
+}
+
+.rightsection img {
+    width: 80%;
+    margin: 50px 0;
+}
+
+.purple {
+    color: purple;
+}
+
+.secondsection {
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 20px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 11px;
+}
+
+.image-top {
+    width: 30px;
+    position: relative;
+    top: -34px;
+    left: -12px;
+
+}
+
+.resume button a {
+    color: white;
+    text-decoration: none;
+}
+
+.resume button {
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    background-color: purple;
+    border-radius: 9px;
+    font-weight: bold;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+#element{
+    color: purple;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background: rgb(18, 18, 62);
+    color: #76c7c0;
+    border-radius: 8px;
+}
+
+footer p {
+    font-size: 0.9rem;
+}
